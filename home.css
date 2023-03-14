@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+a{
+    font-weight: 600;
+    color: #777;
+    text-decoration: none;
+}
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.search{
+    padding-right: 50px;
+    width:550px;
+    border: 1px solid #e3e3e3;
+    height: 30px;
+    border-radius:10px 0 0 10px
+}
+.search_btn{
+    width: 50px;
+    height: 30px;
+    border:1px solid #e3e3e3;
+    border-radius: 0 10px 10px 0 ;
+}
+nav{
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+    line-height: 50px;
+    height: 50px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.main_player{
+    height: 600px;
+    
+    text-align: center;
+}
+.ground{
+    height: 370px;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+.song{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+#one{
+    background: url(./img/one.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 400;
+    position: absolute;
+    left: 18%;
+}
+#two{
+    background: url(./img/two.jpg);
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 600;
+    position: absolute;
+    top: 25px;
+    left: 28%;
+}
+#three{
+    background: url(./img/three.jpg);
+    background-size: cover;
+    z-index: 1000;
+    position: absolute;
+    top:35px;
+    left: 38%;
+}
+#four{
+    background: url(./img/four.jpg);
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 600;
+    position: absolute;
+    top: 25px;
+    left: 48%;
+}
+#five{
+    background: url(./img/five.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 400;
+    position: absolute;
+    left: 58%;
+}
